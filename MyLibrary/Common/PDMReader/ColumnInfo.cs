@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Com.PDMReader
+namespace Common.PDMReader
 {
     /// <summary>
     /// 表列信息

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Xml;
 
-namespace Com.PDMReader
+namespace Common.PDMReader
 {
     public class PdmFileReader : IPdmFileReader
     {

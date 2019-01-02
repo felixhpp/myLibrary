@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLibrary", "MyLibrary\MyLibrary.csproj", "{7D94753B-163E-4315-8FBB-5AA1DB652F34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.PDMReader", "Com.PDMReader\Com.PDMReader.csproj", "{D0B500DD-7921-448D-8E9F-F890F3A69884}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{DD942926-8EE7-4816-8F7B-AE3EC35E86E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,10 @@ Global
 		{7D94753B-163E-4315-8FBB-5AA1DB652F34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D94753B-163E-4315-8FBB-5AA1DB652F34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D94753B-163E-4315-8FBB-5AA1DB652F34}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D0B500DD-7921-448D-8E9F-F890F3A69884}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D0B500DD-7921-448D-8E9F-F890F3A69884}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D0B500DD-7921-448D-8E9F-F890F3A69884}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D0B500DD-7921-448D-8E9F-F890F3A69884}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD942926-8EE7-4816-8F7B-AE3EC35E86E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD942926-8EE7-4816-8F7B-AE3EC35E86E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD942926-8EE7-4816-8F7B-AE3EC35E86E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD942926-8EE7-4816-8F7B-AE3EC35E86E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

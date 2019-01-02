@@ -1,4 +1,5 @@
-﻿using Com.PDMReader;
+﻿using Common.ExcelReader;
+using Common.PDMReader;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -35,7 +36,7 @@ namespace MyLibrary
             fields.Add("ColumnEName", "字段英文名称");
             fields.Add("DataType", "字段类型");
             fields.Add("DataTypeMap", "字段类型Map");
-            //ExcelExport _export = new ExcelExport("d://export1.xls", fields);
+            ExcelExport _export = new ExcelExport("d://export1.xls", fields);
             List<object> list = new List<object>();
             foreach (var t in curPdmModels.Tables)
             {
