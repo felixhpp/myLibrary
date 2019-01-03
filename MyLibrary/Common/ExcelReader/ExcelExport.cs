@@ -9,7 +9,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Common.ExcelReader
+namespace CommonLib.ExcelReader
 {
     /// <summary>
     /// Excel常用的表格导出逻辑封装,单表写入

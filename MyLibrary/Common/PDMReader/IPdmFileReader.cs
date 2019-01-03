@@ -1,5 +1,5 @@
 ﻿
-namespace Common.PDMReader
+namespace CommonLib.PDMReader
 {
     public interface IPdmFileReader
     {

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Common.PDMReader
+namespace CommonLib.PDMReader
 {
     /// <summary>
     /// PDM实体集合

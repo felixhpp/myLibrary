@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Common.PDMReader
+namespace CommonLib.PDMReader
 {
     /// <summary>
     /// 视图信息

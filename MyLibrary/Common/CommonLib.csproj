@@ -7,8 +7,8 @@
     <ProjectGuid>{DD942926-8EE7-4816-8F7B-AE3EC35E86E0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Common</RootNamespace>
-    <AssemblyName>Common</AssemblyName>
+    <RootNamespace>CommonLib</RootNamespace>
+    <AssemblyName>CommonLib</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -60,6 +60,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ExcelReader\ExcelExport.cs" />
+    <Compile Include="File\FileHelper.cs" />
+    <Compile Include="File\TxtHelper.cs" />
+    <Compile Include="File\XmlHelper.cs" />
     <Compile Include="PDMReader\ColumnInfo.cs" />
     <Compile Include="PDMReader\IPdmFileReader.cs" />
     <Compile Include="PDMReader\PdmFileReader.cs" />
@@ -69,9 +72,17 @@
     <Compile Include="PDMReader\ViewColumnInfo.cs" />
     <Compile Include="PDMReader\ViewInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reflection\ReflectionExtendHelper.cs" />
+    <Compile Include="Reflection\ReflectionGenericHelper.cs" />
+    <Compile Include="Reflection\ReflectionHelper.cs" />
+    <Compile Include="Tools\StringHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Attributes\" />
+    <Folder Include="Expression\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

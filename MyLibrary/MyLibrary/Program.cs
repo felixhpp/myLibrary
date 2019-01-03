@@ -1,5 +1,6 @@
-﻿using Common.ExcelReader;
-using Common.PDMReader;
+﻿using CommonLib.ExcelReader;
+using CommonLib.File;
+using CommonLib.PDMReader;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +13,9 @@ namespace MyLibrary
     {
         static void Main(string[] args)
         {
-            PdmReaderTest();
+           //PdmReaderTest();
+            string currentDirectory = System.Environment.CurrentDirectory;  //XXXX\bin\Debug
+            string path = currentDirectory + "\\test.txt";
 
             Console.ReadLine();
         }
