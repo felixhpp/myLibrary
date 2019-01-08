@@ -1,6 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using CommonLib.File;
+using CommonLib.Files;
 
 namespace Test
 {

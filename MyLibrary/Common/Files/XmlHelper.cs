@@ -1,5 +1,4 @@
-﻿using CommonLib.Tools;
-using CommonLib.Reflection;
+﻿using CommonLib.Reflection;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -11,7 +10,7 @@ using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace CommonLib.File
+namespace CommonLib.Files
 {
     /// <summary>
     /// XML文件读取

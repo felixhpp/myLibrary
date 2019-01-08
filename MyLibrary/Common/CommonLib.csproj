@@ -20,6 +20,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\CommonLib.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -59,10 +60,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Encrypts\EncryptHelper.cs" />
     <Compile Include="ExcelReader\ExcelExport.cs" />
-    <Compile Include="File\FileHelper.cs" />
-    <Compile Include="File\TxtHelper.cs" />
-    <Compile Include="File\XmlHelper.cs" />
+    <Compile Include="Extensions\LinqExtensions.cs" />
+    <Compile Include="Files\FileHelper.cs" />
+    <Compile Include="Files\TxtHelper.cs" />
+    <Compile Include="Files\XmlHelper.cs" />
     <Compile Include="PDMReader\ColumnInfo.cs" />
     <Compile Include="PDMReader\IPdmFileReader.cs" />
     <Compile Include="PDMReader\PdmFileReader.cs" />
@@ -75,14 +78,17 @@
     <Compile Include="Reflection\ReflectionExtendHelper.cs" />
     <Compile Include="Reflection\ReflectionGenericHelper.cs" />
     <Compile Include="Reflection\ReflectionHelper.cs" />
-    <Compile Include="Tools\StringHelper.cs" />
+    <Compile Include="Utils\StringHelper.cs" />
+    <Compile Include="Xml\XmlSerializerUtils.cs" />
+    <Compile Include="Xml\XmlUtils.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Attributes\" />
-    <Folder Include="Expression\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="Logs\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

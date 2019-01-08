@@ -1,5 +1,4 @@
-﻿using CommonLib.Tools;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -7,7 +6,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CommonLib.File
+namespace CommonLib.Files
 {
     /// <summary>
     /// Txt文件操作类
@@ -15,6 +14,7 @@ namespace CommonLib.File
     public class TxtHelper
     {
         #region 私有属性常量
+        //换行符
         public const string NewLine = "\r\n";
         #endregion
 
@@ -112,19 +112,4 @@ namespace CommonLib.File
         #endregion
 
     }
-
-    #region 逻辑辅助枚举
-    public enum TxtTypeEnum
-    {
-        /// <summary>
-        /// 实体带有 TxtT 特性
-        /// </summary>
-        Attribute = 1,
-
-        /// <summary>
-        /// 实体不带有 TxtT 特性
-        /// </summary>
-        Normal = 2,
-    }
-    #endregion
 }

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CommonLib.File
+namespace CommonLib.Files
 {
     /// <summary>
     /// 文件操作帮助类

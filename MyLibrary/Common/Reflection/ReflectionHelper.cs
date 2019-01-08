@@ -209,6 +209,9 @@ namespace CommonLib.Reflection
 
     #region 逻辑处理辅助枚举
 
+    /// <summary>
+    /// 反射类型枚举
+    /// </summary>
     public enum ReflectionTypeEnum : int
     {
         /// <summary>

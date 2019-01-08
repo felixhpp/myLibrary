@@ -53,13 +53,23 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="FileHelperTest.cs" />
     <Compile Include="TxtHelperTest.cs" />
-    <Compile Include="StringHelperTest.cs" />
+    <Compile Include="LinqExtTest.cs" />
+    <Compile Include="EncryptHelperTest.cs" />
+    <Compile Include="DatabaseHelperTest.cs" />
+    <Compile Include="XmlTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Common\CommonLib.csproj">
       <Project>{dd942926-8ee7-4816-8f7b-ae3ec35e86e0}</Project>
       <Name>CommonLib</Name>
     </ProjectReference>
+    <ProjectReference Include="..\DatabaseInvoke\DatabaseInvoke.csproj">
+      <Project>{54d74d4e-54f8-4158-a668-bcbadd129905}</Project>
+      <Name>DatabaseInvoke</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

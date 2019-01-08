@@ -4,6 +4,9 @@ using System.Xml;
 
 namespace CommonLib.PDMReader
 {
+    /// <summary>
+    /// PDM文件读取
+    /// </summary>
     public class PdmFileReader : IPdmFileReader
     {
         private const string a = "attribute", c = "collection", o = "object";
